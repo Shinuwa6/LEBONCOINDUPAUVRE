@@ -1,2 +1,40 @@
-header {color:blue;
-text-align: center}
+header {background-color: #FF662B;
+text-align: left}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:center;
+ width:100px;
+ background-color:#FF662B;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+
+
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ div {background-color: #FF662B;
+ width: 500px;
+height: 30px}
+
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+
+.zed {
+  text-align: right;
+  margin-left: 1000px;
+
+}
